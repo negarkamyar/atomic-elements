@@ -1,5 +1,7 @@
 import React, {Component} from "react";
 import CardDescriptionHeader from "./CardDescriptionHeader";
+import CardDescriptionHeaderSubtitle from "./CardDescriptionHeaderSubtitle";
+import CardDescriptionBody from "./CardDescriptionBody";
 
 class CardDescription extends Component {
     constructor(props) {
@@ -12,20 +14,21 @@ class CardDescription extends Component {
                 display: 'flex',
                 flexDirection: "column",
                 alignItems: "stretch",
-                paddingLeft: 24,...this.props.style
+                paddingLeft: 24,
+                ...this.props.style
             }}>
-                <CardDescriptionHeader title={this.props.title}style={{
-                    flex: 1,
-                }}>
-                </CardDescriptionHeader>
-                <div style={{
-                    backgroundColor: "blue",
-                    flex: 3,
-                }}>
-                </div>
+                <CardDescriptionHeader
+                    title={this.props.title}
+                    subtitle={this.props.subtitle}
+                    withFavourite={this.props.withFavourite}
+                    style={{flex: "0 0 25%"}} />
+                <CardDescriptionBody
+                    style={{flex: "4 0 50%"}}
+                    description1={this.props.description1}
+                    description2={this.props.description2} />
                 <div style={{
                     backgroundColor: "black",
-                    flex: 1,
+                    flex: "0 0 25%"
                 }}>
                 </div>
             </div>

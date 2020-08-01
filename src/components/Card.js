@@ -25,10 +25,13 @@ class Card extends Component {
                     backgroundColor: "#F0F0F0",
                 }} >
                 </div>
-                <CardDescription title={this.props.title} style={{
-                    flex: 2,
-                }} >
-                </CardDescription>
+                <CardDescription
+                    title={this.props.title}
+                    subtitle={this.props.subtitle}
+                    withFavourite={this.props.withFavourite}
+                    description1={this.props.description1}
+                    description2={this.props.description2}
+                    style={{ flex: 2 }} />
             </div>
         );
     }
