@@ -22,13 +22,13 @@ class CardDescription extends Component {
                     title={this.props.title}
                     subtitle={this.props.subtitle}
                     withFavourite={this.props.withFavourite}
-                    style={{flex: "0 0 30%"}} />
+                    style={{flex: "1 1 32%"}} />
                 <CardDescriptionBody
-                    style={{flex: "4 0 50%"}}
+                    style={{flex: "1 1 55%"}}
                     description1={this.props.description1}
                     description2={this.props.description2} />
                 <CardDescriptionFooter
-                    style={{flex: "0 0 20%"}}
+                    style={{flex: "1 1 13%"}}
                     RightLabel={this.props.footerRightLabel}
                     LeftLabel={this.props.footerLeftLabel} />
             </div>

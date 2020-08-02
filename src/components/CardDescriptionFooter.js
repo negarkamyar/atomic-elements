@@ -21,7 +21,6 @@ class CardDescriptionFooter extends Component {
                 <span style={{...textStyles.smallReg, color: Colors.darkGrey}}>
                     {this.props.LeftLabel}
                 </span>
-
                 <span style={{...textStyles.smallReg, color: Colors.darkGrey}}>
                     {this.props.RightLabel}
                 </span>

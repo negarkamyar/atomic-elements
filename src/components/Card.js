@@ -10,7 +10,7 @@ class Card extends Component {
 
         return(
             <div style={{
-                minHeight: 260,
+                height: 212,
                 width: 700,
                 backgroundColor: "white",
                 borderRadius: 10,
@@ -20,10 +20,9 @@ class Card extends Component {
                 justifyContent: "flex-start",
                 alignItems: "stretch",
                 padding: 24}} >
-                <div style={{
-                    flex: 1,
-                    backgroundColor: "#F0F0F0",
-                }} >
+                <div style={{ flex: 1 }}>
+                    <img style={{width: "100%", height: "100%"}} src={this.props.imageSource} />
+
                 </div>
                 <CardDescription
                     title={this.props.title}
