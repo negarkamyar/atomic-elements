@@ -11,6 +11,8 @@ export const withOnlyTitle= () => <Card
     subtitle={"Subtitle"}
     description1={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."}
     description2={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt "}
+    footerLeftLabel={"Detailed information"}
+    footerRightLabel={"AU$432.000 Total"}
 ></Card>;
 export const withTitleAndFavourite=  () =>  <Card
     withFavourite={true}
@@ -18,4 +20,6 @@ export const withTitleAndFavourite=  () =>  <Card
     subtitle={"Subtitle"}
     description1={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."}
     description2={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt "}
+    footerLeftLabel={"Detailed information"}
+    footerRightLabel={"AU$432.000 Total"}
 ></Card>;

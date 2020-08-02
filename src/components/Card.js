@@ -10,7 +10,7 @@ class Card extends Component {
 
         return(
             <div style={{
-                height: 260,
+                minHeight: 260,
                 width: 700,
                 backgroundColor: "white",
                 borderRadius: 10,
@@ -31,6 +31,8 @@ class Card extends Component {
                     withFavourite={this.props.withFavourite}
                     description1={this.props.description1}
                     description2={this.props.description2}
+                    footerLeftLabel={this.props.footerLeftLabel}
+                    footerRightLabel={this.props.footerRightLabel}
                     style={{ flex: 2 }} />
             </div>
         );
