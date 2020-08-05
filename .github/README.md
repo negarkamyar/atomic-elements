@@ -1,4 +1,38 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Atomic-elements
+This repo is a collection of UI components that implemented base on atomic design methodology and can be reused and customized for different purposes.
+Core principles of my approach can be found on [Atomic Design](https://atomicdesign.bradfrost.com/chapter-2/) 
+
+<br/>
+<p align="center">
+     <img src="https://atomicdesign.bradfrost.com/images/content/atomic-design-process.png" align="center" width="50%">
+</p>
+<br/>
+
+With followig this approach when reaching the point of creating complex components (aka organism) we have already created 
+several reusable components(aka molecules)
+
+
+## Figma components design language
+Figma was used for creation of design language since it provides a complete toolset for creating responsive desgin components. 
+the use of autolayout enables usign elements in different frame sizes. the library is accessible on [design library](https://www.figma.com/file/rKLkGSrvGFaPuGZlT1qpCb/Card-component?node-id=0%3A1)
+
+<br/>
+<p align="center">
+     <img src="https://github.com/negarkamyar/ui-elements/blob/negarkamyar-readme/.github/images/figma-example.jpeg" align="center"  width="70%">
+</p>
+<br/>
+
+## How It Works
+I organized javascript code of the components in `src/components`. For testing/viewing the different variation of a componnt storybook has been used. there is `stories` directory that includes the list of stories for a single components. For example profile card component has two stories one with only title and other with favourite icon on top left of the card.
+
+
+## Demos
+<br/>
+<p align="center">
+     <img src="https://github.com/negarkamyar/ui-elements/blob/negarkamyar-readme/.github/images/storybook_example.jpeg" align="center"  width="70%">
+</p>
+<br/>
+
 
 ## Available Scripts
 
