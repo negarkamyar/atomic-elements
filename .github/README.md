@@ -18,7 +18,7 @@ the use of autolayout enables usign elements in different frame sizes. the libra
 
 <br/>
 <p align="center">
-     <img src="https://github.com/negarkamyar/ui-elements/blob/negarkamyar-readme/.github/images/figma-example.jpeg" align="center"  width="70%">
+     <img src="https://github.com/negarkamyar/ui-elements/blob/master/.github/images/figma-example.png" align="center"  width="70%">
 </p>
 <br/>
 
@@ -29,7 +29,13 @@ I organized javascript code of the components in `src/components`. For testing/v
 ## Demos
 <br/>
 <p align="center">
-     <img src="https://github.com/negarkamyar/ui-elements/blob/negarkamyar-readme/.github/images/storybook_example.jpeg" align="center"  width="70%">
+     <img src="https://github.com/negarkamyar/ui-elements/blob/master/.github/images/storybook_example.png" align="center"  width="70%">
+</p>
+<br/>
+
+<br/>
+<p align="center">
+     <img src="https://github.com/negarkamyar/ui-elements/blob/master/.github/images/with_review_example.png" align="center"  width="70%">
 </p>
 <br/>
 
